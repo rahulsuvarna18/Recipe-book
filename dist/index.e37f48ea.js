@@ -2850,6 +2850,7 @@ exports.export = function(dest, destName, get) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AJAX", ()=>AJAX);
+parcelHelpers.export(exports, "numberToFraction", ()=>numberToFraction);
 var _configJs = require("./config.js");
 // API KEY = 9afc5a6c-8f27-4427-854d-641319ee88ac
 const timeout = function(s) {
@@ -2880,44 +2881,32 @@ const AJAX = async function(url, uploadData) {
         throw err;
     // console.error(err);
     }
-}; /*
-export const getJSON = async function (url) {
-  try {
-    const fetchPro = fetch(url);
-    const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
-    // const res = await fetch(url);
-    const data = await res.json();
-
-    if (!res.ok) throw new Error(`${data.message} ${res.status}`);
-    return data;
-  } catch (err) {
-    throw err;
-    // console.error(err);
-  }
 };
-
-export const sendJSON = async function (url, uploadData) {
-  try {
-    const fetchPro = fetch(url, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(uploadData),
-    });
-
-    const res = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
-    // const res = await fetch(url);
-    const data = await res.json();
-
-    if (!res.ok) throw new Error(`${data.message} ${res.status}`);
-    return data;
-  } catch (err) {
-    throw err;
-    // console.error(err);
-  }
+const numberToFraction = function(amount) {
+    // This is a whole number and doesn't need modification.
+    if (parseFloat(amount) === parseInt(amount)) return amount;
+    // Next 12 lines are cribbed from https://stackoverflow.com/a/23575406.
+    const gcd = function(a, b) {
+        if (b < 0.0000001) return a;
+        return gcd(b, Math.floor(a % b));
+    };
+    const len = amount.toString().length - 2;
+    let denominator = Math.pow(10, len);
+    let numerator = amount * denominator;
+    var divisor = gcd(numerator, denominator);
+    numerator /= divisor;
+    denominator /= divisor;
+    let base = 0;
+    // In a scenario like 3/2, convert to 1 1/2
+    // by pulling out the base number and reducing the numerator.
+    if (numerator > denominator) {
+        base = Math.floor(numerator / denominator);
+        numerator -= base * denominator;
+    }
+    amount = Math.floor(numerator) + "/" + Math.floor(denominator);
+    if (base) amount = base + " " + amount;
+    return amount;
 };
-*/ 
 
 },{"./config.js":"k5Hzs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l60JC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -2927,6 +2916,7 @@ var _viewJsDefault = parcelHelpers.interopDefault(_viewJs);
 var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _fractional = require("fractional");
+var _helpersJs = require("../helpers.js");
 class RecipeView extends (0, _viewJsDefault.default) {
     _parentElement = document.querySelector(".recipe");
     _errorMessage = `We could not find that recipe. Please try another one`;
@@ -3036,7 +3026,7 @@ class RecipeView extends (0, _viewJsDefault.default) {
           <svg class="recipe__icon">
             <use href="${0, _iconsSvgDefault.default}#icon-check"></use>
           </svg>
-          <div class="recipe__quantity">${ing.quantity ? new (0, _fractional.Fraction)(ing.quantity).toString() : ""}</div>
+          <div class="recipe__quantity">${ing.quantity ? (0, _helpersJs.numberToFraction)(ing.quantity).toString() : ""}</div>
           <div class="recipe__description">
             <span class="recipe__unit">${ing.unit}</span>
             ${ing.description}
@@ -3047,7 +3037,7 @@ class RecipeView extends (0, _viewJsDefault.default) {
 }
 exports.default = new RecipeView();
 
-},{"./View.js":"5cUXS","url:../../img/icons.svg":"loVOp","fractional":"3SU56","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5cUXS":[function(require,module,exports) {
+},{"./View.js":"5cUXS","url:../../img/icons.svg":"loVOp","fractional":"3SU56","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","../helpers.js":"hGI1E"}],"5cUXS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _iconsSvg = require("url:../../img/icons.svg");
