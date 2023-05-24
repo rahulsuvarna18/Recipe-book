@@ -1,11 +1,11 @@
-9370
+9376
 110/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/index.f7626f62.css1684820998322850908 0
 110/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/index.fcf34319.css1684820658712939097 0
 102/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/index.html1684820998332850908 0
 109/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/logo.8a7af738.png1684820658702939096 0
 113/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/index.3e2f7de0.js.map1684820658712939097 0
 112/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/favicon.8b2f57bf.png1684820998322850908 0
-113/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/index.e37f48ea.js.map1684909358298843013 0
+113/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/index.e37f48ea.js.map1684910062828730697 0
 123/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/source-map-js/README.md1682765531343677179 0
 132/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/source-map-js/lib/source-node.js1682765531293677192 0
 141/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/source-map-js/lib/source-map-generator.js1682765531273677198 0
@@ -16,6 +16,8 @@
 121/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/source-map-js/LICENSE1682765530973677273 0
 126/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/source-map-js/CHANGELOG.md1682765531323677185 0
 113/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/source-map-js1682765531343677179 1
+121/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/fracty/fracty.test.js1684910026728736081 0
+121/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/fracty/.gitattributes1684910026728736081 0
 116/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/semver/README.md1682765531223677209 0
 119/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/semver/CHANGELOG.md1682765531203677215 0
 116/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/terser/README.md1682871668197833019 0
@@ -866,6 +868,7 @@
 157/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/workers/test/integration/workerfarm/master-sum.js1682765531363677176 0
 159/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_dump.c1682765531503677140 0
 154/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/workers/test/integration/workerfarm/logging.js1682765531343677179 0
+116/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/fracty/readme.md1684910026728736081 0
 143/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/workers/test/integration/workerfarm1682765531403677164 1
 137/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/workers/test/cpuCount.test.js1682765531303677191 0
 120/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/workers/test1682765531463677149 1
@@ -984,7 +987,7 @@
 129/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/transformer-image/src1682871667787833154 1
 151/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/css-select/node_modules/domutils/lib/stringify.d.ts1682871668057833066 0
 157/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/optimizer-image/parcel-image.linux-arm64-gnu.node1682871668277832993 0
-91/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist1684909358298843013 1
+91/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist1684910062828730697 1
 141/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/optimizer-image/lib/loadNative.js1682871667737833171 0
 145/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/optimizer-image/lib/ImageOptimizer.js1682871667717833175 0
 127/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/optimizer-image/lib1682871667717833175 1
@@ -2071,7 +2074,7 @@
 121/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/mdn-data/package.json1682871667927833108 0
 142/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/core/src/requests/DevDepRequest.js1682765531583677119 0
 121/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/mdn-data/CHANGELOG.md1682871668037833072 0
-118/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/.package-lock.json1683019410973065370 0
+118/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/.package-lock.json1684910026788736072 0
 133/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/update-browserslist-db/index.d.ts1682765531183677221 0
 131/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/update-browserslist-db/utils.js1682765531143677230 0
 131/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/update-browserslist-db/index.js1682765531123677236 0
@@ -2477,6 +2480,7 @@
 130/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/actual/string/fixed.js1682873057627336174 0
 136/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/actual/string/replace-all.js1682873057887336087 0
 139/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/actual/string/is-well-formed.js1682873057767336127 0
+119/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/fracty/package.json1684910026728736081 0
 134/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/actual/string/fontcolor.js1682873057637336170 0
 144/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/actual/string/virtual/replace-all.js1682873057887336087 0
 142/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/actual/string/virtual/match-all.js1682873057817336108 0
@@ -2723,6 +2727,7 @@
 133/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/string/search.js1682873057897336083 0
 146/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/csso/node_modules/css-tree/dist/csstree.esm.js1682871668257832999 0
 132/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/string/blink.js1682873057397336250 0
+116/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/fracty/fracty.js1684910026728736081 0
 134/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/string/pad-end.js1682873057847336098 0
 123/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/string1682873058007336047 1
 141/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@swc/helpers/lib/_class_name_tdz_error.js1682871667887833119 0
@@ -3275,6 +3280,7 @@
 129/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/markdown-ansi/LICENSE1682765531083677245 0
 127/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/logger/package.json1682765531193677217 0
 133/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/stable/string/fontsize.js1682873057637336170 0
+106/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/fracty1684910026728736081 1
 134/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/core/lib/resolveOptions.js1682765531713677088 0
 176/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/scope/default.js1682871668107833046 0
 105/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/clone1682765531173677222 1
@@ -4492,7 +4498,7 @@
 113/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/dotenv-expand1682765531123677236 1
 148/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/caniuse-lite/data/features/css-initial-letter.js1682765531703677089 0
 143/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/array/virtual/unique-by.js1682873058007336047 0
-117/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@msgpackr-extract1683019410913065390 1
+117/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@msgpackr-extract1684910026738736080 1
 129/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/lmdb/dependencies/lz4/lib/dll1682765531743677080 1
 137/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/modules/esnext.map.emplace.js1682873057557336195 0
 145/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/csso/node_modules/css-tree/cjs/data-patch.cjs1682871668027833076 0
@@ -5050,7 +5056,7 @@
 136/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/actual/instance/find-last.js1682873057617336174 0
 130/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/node-addon-api/tools/README.md1682765531423677161 0
 150/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/full/async-disposable-stack/constructor.js1682873057417336244 0
-99/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/package.json1684820645192939983 0
+99/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/package.json1684910026778736071 0
 147/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/caniuse-lite/data/features/css3-cursors-grab.js1682765531763677074 0
 143/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/source-map-support/register-hook-require.js1682871667747833165 0
 132/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/es/array/virtual/fill.js1682873057587336185 0
@@ -5348,7 +5354,7 @@
 153/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/runtime-js/src/helpers/browser/wasm-loader.js1682871668027833076 0
 104/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/.bin1682871669087832724 1
 142/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/caniuse-lite/data/features/css-rrggbbaa.js1682765531733677082 0
-113/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/src/js/views/recipeView.js1684909348448844753 0
+113/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/src/js/views/recipeView.js1684910050318732515 0
 136/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/weak-set/add-all.js1682873057327336271 0
 132/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/object/proto.js1682873057867336093 0
 182/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-false-glob/sub/a1682871668147833036 1
@@ -5536,7 +5542,7 @@
 133/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/svgo/plugins/removeXMLProcInst.js1682871668067833062 0
 138/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/caniuse-lite/data/features/css-sel2.js1682765531743677080 0
 144/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/caniuse-lite/data/features/object-observe.js1682765531853677052 0
-99/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules1683019410913065390 1
+99/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules1684910026738736080 1
 148/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/caniuse-lite/data/features/insertadjacenthtml.js1682765531833677058 0
 140/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/actual/array/virtual/flat-map.js1682873057627336174 0
 138/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/array/virtual/join.js1682873057787336118 0
@@ -7050,7 +7056,7 @@
 137/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/array/copy-within.js1682873057427336240 0
 164/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/optimizer-htmlnano/node_modules/css-tree/lib/syntax/node1682871668247833003 1
 135/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/array/unique-by.js1682873058007336047 0
-104/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/package-lock.json1683019410953065376 0
+104/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/package-lock.json1684910026778736071 0
 130/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/array/sort.js1682873057927336073 0
 145/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/caniuse-lite/data/features/css-paged-media.js1682765531733677082 0
 130/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/full/instance/flags.js1682873057627336174 0
@@ -7091,7 +7097,7 @@
 136/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/instance/pad-end.js1682873057847336098 0
 137/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/core/lib/public/Dependency.js1682765531573677123 0
 134/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/stable/string/trim-left.js1682873057997336051 0
-105/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@lmdb1683019410913065390 1
+105/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@lmdb1684910026738736080 1
 134/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/features/instance/every.js1682873057587336185 0
 154/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/workers/test/integration/workerfarm/ipc-pid.js1682765531333677183 0
 140/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/actual/array/virtual/group-by.js1682873057677336158 0
@@ -8434,7 +8440,7 @@
 132/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/css-tree/cjs/generator/index.cjs1682871668117833046 0
 138/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/internals/array-copy-within.js1682873057337336270 0
 134/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/core-js/internals/entry-virtual.js1682873057477336224 0
-109/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/index.e37f48ea.js1684909358288843015 0
+109/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/dist/index.e37f48ea.js1684910062818730699 0
 159/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/lmdb/dependencies/lmdb-data-v1/libraries/liblmdb/mdb_dump.11682765531413677162 0
 130/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/@parcel/watcher/src/Watcher.hh1682765531403677164 0
 142/home/rahulsuvarna18/code/rahulsuvarna18/complete-javascript-course/18-forkify/starter/node_modules/caniuse-lite/data/features/font-loading.js1682765531813677064 0
