@@ -1,7 +1,6 @@
 import View from './View.js';
 import icons from 'url:../../img/icons.svg';
 import { numberToFraction } from '../helpers.js';
-import fracty from 'fracty';
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
